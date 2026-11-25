@@ -188,7 +188,8 @@ async function renderSocial() {
   const maxTot = Math.max(1, ...rows.map((x) => x.tot));
   const bars = rows.map((x) => `<div class="bar"><span>${esc(D.brandName[x.b])}</span><div class="track" title="긍정 ${x.p} · 부정 ${x.n} · 중립 ${x.u}">
     <span class="s-pos" style="width:${(x.p / maxTot) * 100}%"></span><span class="s-neg" style="width:${(x.n / maxTot) * 100}%"></span><span class="s-neu" style="width:${(x.u / maxTot) * 100}%"></span></div><span class="num">${x.tot}</span></div>`).join('');
-  const table = `<div class="scroll"><table><thead><tr><th>경쟁사</th>${MKEYS.map((k) => `<th>${SRC[k]}</th>`).join('')}<th>합계</th><th>${GLabel[S.gran]}</th><th>변화</th><th>긍정</th><th>부정</th></tr></thead><tbody>
+  const thN = (t) => `<th style="text-align:right">${t}</th>`; // 숫자 칸 제목은 숫자와 같은 오른쪽 정렬
+  const table = `<div class="scroll"><table><thead><tr><th>경쟁사</th>${MKEYS.map((k) => thN(SRC[k])).join('')}${thN('합계')}${thN(`${GLabel[S.gran]} 합계`)}${thN('변화')}${thN('긍정')}${thN('부정')}</tr></thead><tbody>
     ${rows.map((x) => `<tr><td>${esc(D.brandName[x.b])}</td>${x.by.map((v) => `<td class="num">${v}</td>`).join('')}<td class="num"><b>${x.tot}</b></td><td class="num">${x.prev}</td><td class="num">${delta(x.tot, x.prev)}</td><td class="num up">${x.p}</td><td class="num down">${x.n}</td></tr>`).join('')}</tbody></table></div>`;
 
   const off = Object.values(D.off.items).filter((o) => S.brands.has(o.brand) && (!S.platform || (S.platform === '구글' ? o.platform === 'youtube' : S.platform === '메타' ? o.platform === 'instagram' : false)))
