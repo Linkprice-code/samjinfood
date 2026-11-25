@@ -1,0 +1,63 @@
+name: 경쟁사 모니터링 자동 수집
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 매일 00:00 UTC = 한국 시간 오전 9시 (GitHub 대기열에 따라 수 분~수십 분 늦을 수 있음)
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ['data/manual/**', 'site/**', 'config/**', 'scripts/**', '.github/workflows/**']
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 자동 수집 (예약 실행·수동 실행 시)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: node scripts/collect.mjs
+
+      - name: 수집 데이터 누적 저장
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "data: $(TZ=Asia/Seoul date +%F) 자동 수집"
+          git pull --rebase --autostash origin main
+          git push
+
+      - name: 화면 만들기 (수동 등록 병합·중복 제거)
+        run: node scripts/build.mjs
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4
