@@ -1,0 +1,567 @@
+{
+ "items": [
+  {
+   "id": "f69cd515003919fa9e58b50d00e6f48da969e31c",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "어묵탕인 줄 알았는데 국수라고요?🍜 밥까지 말아 먹은 고래사 어묵국수",
+   "desc": "우리 둘째는 새로운 음식이 궁금하면 꼭 저한테 DM으로 보내요. 이번에 사달라고 한 건 고래사 어묵국수! 학원 끝나고 볼이 빨개져서 ...",
+   "url": "https://www.youtube.com/watch?v=_KqWzu6BFeg",
+   "published": "2026-11-25",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-25",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵탕"
+   ],
+   "extra": {
+    "channel": "Nambol Pick",
+    "thumb": "https://i.ytimg.com/vi/_KqWzu6BFeg/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "863eedcb468b3ff002789309cf47f5beb07ff3a5",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "겨울엔 뜨끈한 #엄마표 #고래사 물떡 #어묵탕",
+   "desc": "오늘 저녁 메뉴가 고민될땐 구독&좋아요 하시고 결정하세요!",
+   "url": "https://www.youtube.com/watch?v=Cr6BWBpi4zc",
+   "published": "2026-11-24",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-24",
+   "baseline": true,
+   "sentiment": "positive",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵탕"
+   ],
+   "extra": {
+    "channel": "쩡쓰네 리뷰일기",
+    "thumb": "https://i.ytimg.com/vi/Cr6BWBpi4zc/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "08b43165c6f3ae45e276faa6ef312d494fda46c7",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "[광고] 고래사 꼬치어묵전골, 한 팩에 유부주머니까지",
+   "desc": "[광고] 상품 구매 시 제휴 수수료를 받을 수 있습니다 꼬치어묵이랑 유부주머니를 한 냄비에 끓이는 전골이에요 고래사 냉동 전골은 한 ...",
+   "url": "https://www.youtube.com/watch?v=VfFLll9SdZU",
+   "published": "2026-11-24",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-24",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [
+    "광고"
+   ],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "이게왜있지",
+    "thumb": "https://i.ytimg.com/vi/VfFLll9SdZU/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "613ee3da42c4574bc21b39127ad14ad991d78e9a",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "\" 어묵파 \"가 선택한 떡볶이 , \" 고래사 어묵 떡볶이 \"",
+   "desc": "재료가 고급시러운데 양념이 그렇게 맵지가 않아서 재료의 맛이 더 튀는 느낌이랄까 더 매웠으면 좋겠다.",
+   "url": "https://www.youtube.com/watch?v=7HxWHNvzJo8",
+   "published": "2026-11-24",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-24",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "떡볶이"
+   ],
+   "extra": {
+    "channel": "김세계",
+    "thumb": "https://i.ytimg.com/vi/7HxWHNvzJo8/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "3b5cf2814f5df7a58e63b0c611977aa76ba878cf",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "이게 밀키트라고?! 고래사어묵 김치우동전골 비주얼 실화?",
+   "desc": "밀키트 #밀키트추천 #밀키트만들기 #밀키트만들기추천 #밀키트맛집 #밀키트리뷰 #초보요리 #초보요리레시피 #초보요리추천 #리뷰 ...",
+   "url": "https://www.youtube.com/watch?v=j8ejJq9-qTw",
+   "published": "2026-11-23",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-23",
+   "baseline": true,
+   "sentiment": "positive",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "쪼리는언니",
+    "thumb": "https://i.ytimg.com/vi/j8ejJq9-qTw/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "0938f83e45e57d2aee598a85893c37bea3ac3e50",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "9,900원에 우동·어묵까지? 고래사어묵 김치우동전골 먹어봤어요",
+   "desc": "밀키트 #밀키트추천 #밀키트만들기 #밀키트만들기추천 #밀키트맛집 #밀키트리뷰 #초보요리 #초보요리레시피 #초보요리추천 #리뷰 ...",
+   "url": "https://www.youtube.com/watch?v=waBzp87Jq4A",
+   "published": "2026-11-23",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-23",
+   "baseline": true,
+   "sentiment": "positive",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "쪼리는언니",
+    "thumb": "https://i.ytimg.com/vi/waBzp87Jq4A/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "a5634b956af1588a4c85ae86e79339f826f80d38",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "빵순이 브이로그🥐하루 종일 찹쌀떡 먹고 어묵 라면으로 싹 내린 날🔥타르당 과일모찌 생초코 찹쌀떡, 고래사 어묵 짬뽕라면, 일본 초코 슈과자, 수제 오란다",
+   "desc": "안녕하세요 제이데이입니다! 오늘은 눈뜨자마자 달콤하고 쫀득한 찹쌀떡들로 시작해 얼큰한 국물로 마무리한 제대로 된 탄수화물 ...",
+   "url": "https://www.youtube.com/watch?v=Ui53NCG-oTk",
+   "published": "2026-11-23",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-23",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "제이데이",
+    "thumb": "https://i.ytimg.com/vi/Ui53NCG-oTk/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "3c53c537c4c65a7c3d1698563867618942ee7b4f",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "어묵탕 끓이는 법 고래사어묵 오뎅탕 2인분 레시피",
+   "desc": "어묵탕 어묵탕 2인분 재료 무300g 무청 30g 고래사어묵 100g 물 500ml 건고추1ea 맛소금 2ml 집간장 5ml 건새우가루 5ml 후추가루 ...",
+   "url": "https://www.youtube.com/watch?v=YDSTZTFseJc",
+   "published": "2026-11-23",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-23",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵탕",
+    "오뎅"
+   ],
+   "extra": {
+    "channel": "mijjuri미쭈리",
+    "thumb": "https://i.ytimg.com/vi/YDSTZTFseJc/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "120fb635fd77043ce5bce9466ce7e305c6c7c921",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "이민정이 N차 구매했다는 고래사어묵 꼬치 어묵 물떡 #shorts",
+   "desc": "이 영상은 쿠팡 파트너스 활동의 일환으로 이에 따른 일정액의 수수료를 제공받을 수 있습니다. 이민정이 자기 채널에서 겨울 간식 ...",
+   "url": "https://www.youtube.com/watch?v=aPjdD2QNGns",
+   "published": "2026-11-22",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-22",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "취향단서",
+    "thumb": "https://i.ytimg.com/vi/aPjdD2QNGns/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "586da3e6d40a6c05f848ca852fdf4579a0c7ff29",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "토마토 맛이 살짝 난다는 류이서의 고래사 어묵 떡볶이",
+   "desc": "류이서가 떡볶이 먹고 싶을 때 꺼내 먹는다는 고래사 어묵 떡볶이예요. 부산에서 유명한 고래사 어묵이 두 가지 들어 있고, 소스에 ...",
+   "url": "https://www.youtube.com/watch?v=NqRTrwZZJ_o",
+   "published": "2026-11-22",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-22",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "떡볶이"
+   ],
+   "extra": {
+    "channel": "싹스리상점",
+    "thumb": "https://i.ytimg.com/vi/NqRTrwZZJ_o/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "eb048b78ab18e612a7bcefc4c11607c1bbb9abf8",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "캠핑장 버너 위에서 끓는 어묵 국물, 이 맛에 캠핑 간다",
+   "desc": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. 고래사어묵 도톰하고 쫄깃한 꼬치어묵 22 ...",
+   "url": "https://www.youtube.com/watch?v=UnyOR9LT6Qg",
+   "published": "2026-11-22",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-22",
+   "baseline": true,
+   "sentiment": "positive",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "OneLookPick",
+    "thumb": "https://i.ytimg.com/vi/UnyOR9LT6Qg/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "094980d524d55b96ac98ab8fdc394f34c2a39ca0",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "부산어묵 | 부산푸드트립 #shorts",
+   "desc": "부산어묵의 음식과 식사 장면을 담았습니다. 메뉴·가격·영업시간은 방문 전 매장 최신 안내를 확인해 주세요. #부산푸드트립 #맛집 ...",
+   "url": "https://www.youtube.com/watch?v=oMRR5pAIOYw",
+   "published": "2026-11-25",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-25",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "부산푸드트립",
+    "thumb": "https://i.ytimg.com/vi/oMRR5pAIOYw/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "24ad8e38f610d4c72deffcfd742d54bf750fce4f",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "사당돈까스맛집｜체다치즈카츠에 어묵우동까지",
+   "desc": "체다치즈 소스 듬뿍! 큼직한 옛날 왕돈카츠에 따끈한 부산어묵 우동까지 먹고 왔어요. 오레노카츠 남성역점 서울 동작구 사당로 196 ...",
+   "url": "https://www.youtube.com/watch?v=ftzjF9uP5Hs",
+   "published": "2026-11-24",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-24",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "맛집헌터",
+    "thumb": "https://i.ytimg.com/vi/ftzjF9uP5Hs/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "8fefadb1270410ad75ef1b423513d603ad9f82b0",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "어묵 공장은 왜 부산에 몰렸을까? 부산 어묵 이야기 #shorts",
+   "desc": "생선이 넘치는 큰 항구에 일본과도 가까웠던 부산. 일제강점기 부평시장엔 일본인 어묵 가게들이 있었고, 해방 뒤엔 거기서 일하던 ...",
+   "url": "https://www.youtube.com/watch?v=FLpgFM7C6uY",
+   "published": "2026-11-24",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-24",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "대한민국밥상여행",
+    "thumb": "https://i.ytimg.com/vi/FLpgFM7C6uY/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "7d7b82aeb33ab063529d76237b367709a68c5a01",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "[부산 어묵송] 뮤직비디오_부산 어묵_김언정 작사, 작곡 (위드 제미나이)",
+   "desc": "정겨운 시장 골목에서 맛보는 부산 어묵송 뮤비.",
+   "url": "https://www.youtube.com/watch?v=GYcUB17oKTg",
+   "published": "2026-11-24",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-24",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "김데레사",
+    "thumb": "https://i.ytimg.com/vi/GYcUB17oKTg/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "f8e49d64abb0855008adf84f6419016d221a2025",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "60여년을 3대째 #황제참치어묵 #명품프리미엄어묵 #부산어묵 #웰포유더당당",
+   "desc": "",
+   "url": "https://www.youtube.com/watch?v=9LHR-8v9AO0",
+   "published": "2026-11-24",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-24",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "웰포유더당당SONG&SOUL",
+    "thumb": "https://i.ytimg.com/vi/9LHR-8v9AO0/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "dadbf54106024eb181d9e8fecb8ebe34f7378d37",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "전 오뎅바 사장님표! 집에서 끓이는 혼술 유발 '어묵탕'",
+   "desc": "무랑 어묵만 넣었는데 이렇게 시원하다고? [어설랑] '미니멀 부산 어묵 꼬치&물떡'으로 만드는 초간단 어묵탕 레시피! 명태살 100% ...",
+   "url": "https://www.youtube.com/watch?v=PpnmtOZOLEE",
+   "published": "2026-11-24",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-24",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [
+    "%"
+   ],
+   "products": [
+    "어묵탕",
+    "오뎅"
+   ],
+   "extra": {
+    "channel": "셰프 장호준 (호주이햄)",
+    "thumb": "https://i.ytimg.com/vi/PpnmtOZOLEE/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "a773790822eb8bd97a7f85f1af7d243eec7015ca",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "중국산 생선살 든 부산어묵",
+   "desc": "이 영상의 쇼핑 태그·채널 쿠팡 스토어 제품을 구매하면 채널이 수수료를 받습니다. 삼호 부산어묵, 봉지 뒤 원재료 칸까지 보고 사 ...",
+   "url": "https://www.youtube.com/watch?v=0T225Dz1FAI",
+   "published": "2026-11-24",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-24",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "맛의해부학",
+    "thumb": "https://i.ytimg.com/vi/0T225Dz1FAI/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "536b3d7fdd3a0840a1cbdaf7a13fb49609776ac9",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "포차 꼬치어묵 개당 사백 원대 #사조대림 #사각꼬치어묵 #부산어묵",
+   "desc": "[프로필 링크 → 13번 검색] 요즘 길거리 어묵 한 꼬치에 1500원?! 이젠 집에서 갓성비로 포차 감성 즐기세요! 사조대림 사각꼬치어묵은 ...",
+   "url": "https://www.youtube.com/watch?v=ryHUcGQYkwg",
+   "published": "2026-11-24",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-24",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "줌마푸드 맛있는 채널",
+    "thumb": "https://i.ytimg.com/vi/ryHUcGQYkwg/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "8f400ad0f5f4d27ec0862e8ad250f9f809a0dfa7",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "부산 어묵 vs 물떡 | Eomuk vs Multteok · 부산 산복도로 #Shorts",
+   "desc": "한국어 부산 어묵 꼬치와 부산 물떡을 20개들이 포장으로 각각 96팩씩 싣습니다. 커브를 돈 뒤 두 적재물의 도착 결과를 비교합니다.",
+   "url": "https://www.youtube.com/watch?v=LX3svqfgEjs",
+   "published": "2026-11-23",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-23",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "Reframe Arcade",
+    "thumb": "https://i.ytimg.com/vi/LX3svqfgEjs/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "58896cc9a6f5c4871c29705e66b25c663456d519",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "부산 고등어 420마리·대선 소주·돼지국밥 | Busan Mackerel, Daesun Soju & Pork Gukbap | 부산 산복도로 1부 · 126 km/h",
+   "desc": "한국어 고등어 420마리를 실은 픽업이 초장로 커브를 돌자 고등어가 적재함 밖으로 쏟아집니다. 대선 소주, 돼지국밥, 부산 어묵 꼬치, ...",
+   "url": "https://www.youtube.com/watch?v=mySuz4E_l24",
+   "published": "2026-11-23",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-23",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "Reframe Arcade",
+    "thumb": "https://i.ytimg.com/vi/mySuz4E_l24/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "9a661ad70516bb8fe00eea5ec05e2033f585d83e",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "#모이세#임영웅#국제시장#부평시장#부산어묵",
+   "desc": "",
+   "url": "https://www.youtube.com/watch?v=6DrjU0X_K-g",
+   "published": "2026-11-23",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-23",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "내맘뜨락",
+    "thumb": "https://i.ytimg.com/vi/6DrjU0X_K-g/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "0f325bc8e18826c18e3ff3a917fbb88ce9865cb1",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "부산 사직동 30년 전통 찹쌀호떡🔥 떡볶이·순대·꼬마김밥까지! #사직동맛집 #부산맛집 #shorts",
+   "desc": "부산 사직동 국민시장 깜돌이스낵입니다 30년 전통 찹쌀호떡부터 부산어묵, 물떡, 곤약, 매콤한 쌀떡볶이, 잡내 없는 순대, 별미 ...",
+   "url": "https://www.youtube.com/watch?v=8tIWTJapDR4",
+   "published": "2026-11-22",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-22",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "떡볶이",
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "깜돌이스낵",
+    "thumb": "https://i.ytimg.com/vi/8tIWTJapDR4/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "3608fd02baa1cbf7edad894b580b55fb2e628d6a",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "🌻 부산꼬치어묵 세트 🌻 ▶️ 제품구매는 프로필 링크 119번 검색 #어묵#부산어묵#겨울별미#어묵탕#국물요리",
+   "desc": "부산꼬치어묵 세트 ✨️ 수능 끝나자 겨울이 성큼 와버렸네요. 입김나고 귀까지 꽁꽁 얼어붙는 추운 날씨에 꼬치어묵 안 먹으면 ...",
+   "url": "https://www.youtube.com/watch?v=ZUgUquwlIC0",
+   "published": "2026-11-22",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-22",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵탕",
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "픽미픽미",
+    "thumb": "https://i.ytimg.com/vi/ZUgUquwlIC0/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "9abccadbda9947f09735cb98102e94697c29a82d",
+   "brand": "samho",
+   "source": "youtube",
+   "title": "중국산 생선살 든 부산어묵",
+   "desc": "이 영상의 쇼핑 태그·채널 쿠팡 스토어 제품을 구매하면 채널이 수수료를 받습니다. 삼호 부산어묵, 봉지 뒤 원재료 칸까지 보고 사 ...",
+   "url": "https://www.youtube.com/watch?v=0T225Dz1FAI",
+   "published": "2026-11-24",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-24",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "맛의해부학",
+    "thumb": "https://i.ytimg.com/vi/0T225Dz1FAI/mqdefault.jpg"
+   }
+  }
+ ]
+}
