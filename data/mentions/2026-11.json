@@ -562,6 +562,27 @@
     "channel": "맛의해부학",
     "thumb": "https://i.ytimg.com/vi/0T225Dz1FAI/mqdefault.jpg"
    }
+  },
+  {
+   "id": "d4aecebf53456517a6ff6f82afd557294ccd23a5",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "부산 어묵 너무 맛있어요 보내주신마음 고맙습니다 잘먹을깨요 🙏👍👍",
+   "desc": "",
+   "url": "https://www.youtube.com/watch?v=ebCkkxJwL-o",
+   "published": "2026-11-25",
+   "firstSeen": "2026-11-25",
+   "date": "2026-11-25",
+   "baseline": false,
+   "sentiment": "positive",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "친구tv",
+    "thumb": "https://i.ytimg.com/vi/ebCkkxJwL-o/mqdefault.jpg"
+   }
   }
  ]
 }
