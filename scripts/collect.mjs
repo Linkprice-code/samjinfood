@@ -76,8 +76,9 @@ async function collectNaver() {
     for (const [type, src] of Object.entries(types)) {
       if (!id || !secret) { log(src, brand.id, 'skipped', 0, 'NAVER_CLIENT_ID/SECRET 미설정'); continue; }
       try {
-        const url = `https://openapi.naver.com/v1/search/${type}.json?query=${encodeURIComponent(brand.query)}&display=100&sort=date`;
-        const j = await fetchJson(url, { headers: { 'X-Naver-Client-Id': id, 'X-Naver-Client-Secret': secret } });
+        // 네이버 클라우드 NAVER API HUB(2026년 신규 발급 방식). 응답 형식은 기존 검색 API와 같음
+        const url = `https://naverapihub.apigw.ntruss.com/search/v1/${type}?query=${encodeURIComponent(brand.query)}&display=100&sort=date&format=json`;
+        const j = await fetchJson(url, { headers: { 'X-NCP-APIGW-API-KEY-ID': id, 'X-NCP-APIGW-API-KEY': secret } });
         const baseline = firstRunForSource(src, brand.id);
         let added = 0, matched = 0;
         for (const it of j.items || []) {
