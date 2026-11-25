@@ -236,7 +236,7 @@ function renderStatus() {
   const errs = D.runs.flatMap((run) => run.results.filter((x) => x.status === 'error').map((x) => ({ ...x, runAt: run.runAt }))).slice(0, 60);
   $('#tab-status').innerHTML = `<h2>매체별 자동 수집 가능 범위 <small>검증일 ${esc(D.cov.verifiedAt)}</small></h2>
     <p class="note">${esc(D.cov.summary)}</p>
-    <div class="scroll"><table><thead><tr><th>매체</th><th>대상</th><th>방식</th><th>필요 설정</th><th>근거</th></tr></thead><tbody>
+    <div class="scroll"><table class="wide"><thead><tr><th>매체</th><th>대상</th><th>방식</th><th>필요 설정</th><th>근거</th></tr></thead><tbody>
     ${D.cov.items.map((c) => `<tr><td>${pfBadge(c.platform)}</td><td>${esc(c.target)}</td><td>${c.mode === 'auto' ? '<span class="tag pos">자동</span>' : c.mode === 'auto-optional' ? '<span class="tag warn">자동(설정 시)</span>' : '<span class="tag">수동 등록</span>'}<div class="note">${esc(c.method)}</div></td><td class="note">${esc(c.needs)}</td><td class="note">${esc(c.evidence)}</td></tr>`).join('')}</tbody></table></div>
     <h2>최근 실행 결과 <small>${last ? `${esc(last.runAt.slice(0, 16).replace('T', ' '))} · ${esc(last.trigger)} · 정상 ${last.summary.ok} / 미설정 ${last.summary.skipped} / 오류 ${last.summary.error}` : '실행 기록 없음'}</small></h2>
     ${last ? `<div class="scroll"><table><thead><tr><th>경쟁사</th>${cols.map((c) => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${D.brands.map((b) => `<tr><td>${esc(D.brandName[b])}</td>${cols.map((c) => `<td class="c">${cell(last.results.find((x) => x.brand === b && x.collector === c))}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="note">칸에 마우스를 올리면 상세 메시지가 보입니다.</p>` : '<div class="empty">아직 자동 수집이 실행되지 않았습니다.</div>'}
