@@ -56,14 +56,14 @@ for (const file of files) {
       else buildErrors.push({ file: rel, message: `이미지 파일 없음: ${e.image}` });
     }
     const copy = e.copy || '';
-    // 중복 기준: 브랜드 + 매체 + 카피(공백 무시) + 이미지(파일 해시 또는 URL) + 영상 URL
-    const key = sha1([e.brand, e.media, norm(copy), imageKey, e.videoUrl || ''].join('|'));
+    // 중복 기준: 광고 ID가 있으면(메타 광고 라이브러리) 브랜드+광고 ID, 없으면 브랜드 + 매체 + 카피(공백 무시) + 이미지(파일 해시 또는 URL) + 영상 URL
+    const key = e.adId ? sha1(['ad', e.brand, String(e.adId)].join('|')) : sha1([e.brand, e.media, norm(copy), imageKey, e.videoUrl || ''].join('|'));
     const text = `${copy} ${e.subCopy || ''} ${e.product || ''}`;
     const prev = creatives.get(key);
     const dates = new Set([...(prev?.seenDates || []), e.confirmedDate, ...(e.lastConfirmedDate ? [e.lastConfirmedDate] : [])]);
     const sorted = [...dates].sort();
     creatives.set(key, {
-      id: key.slice(0, 12), brand: e.brand, media: e.media,
+      id: key.slice(0, 12), brand: e.brand, media: e.media, adId: e.adId || prev?.adId || null, pageName: e.pageName || prev?.pageName || null,
       format: e.format || (e.videoUrl ? 'video' : image ? 'image' : 'text'),
       copy, subCopy: e.subCopy || prev?.subCopy || '', hook: e.hook || prev?.hook || hookOf(copy),
       product: e.product || prev?.product || productHits(text).join(', '),
