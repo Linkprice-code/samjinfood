@@ -24,7 +24,7 @@
 
 | 이름 | 발급처 | 용도 |
 |---|---|---|
-| `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` | developers.naver.com → 애플리케이션 등록 → 사용 API ‘검색’ | 뉴스·블로그·카페 언급 |
+| `NAVER_CLIENT_ID`, `NAVER_CLIENT_SECRET` | 네이버 클라우드 콘솔 → NAVER API HUB → 앱 등록(블로그·뉴스·카페글 검색 선택) → Client ID/Secret (기존 개발자센터는 검색 API 신규 신청 불가) | 뉴스·블로그·카페 언급 |
 | `YOUTUBE_API_KEY` | Google Cloud Console → YouTube Data API v3 사용 설정 → API 키 | 유튜브 언급·공식 채널 |
 | `META_ACCESS_TOKEN`, `IG_USER_ID` (선택) | Meta 개발자 앱 + 내 인스타그램 비즈니스 계정 | 경쟁사 공식 인스타그램 게시물 반응 |
 
