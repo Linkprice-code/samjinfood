@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>어묵 경쟁사 모니터</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-row">
+    <div>
+      <h1>어묵 경쟁사 광고·반응 모니터</h1>
+      <p class="sub">국내 어묵 카테고리 · 네이버 / 메타 / 구글 · <span id="lastUpdated">불러오는 중…</span></p>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-tab="overview" class="on">개요</button>
+      <button data-tab="creatives">광고 소재</button>
+      <button data-tab="social">SNS·고객 반응</button>
+      <button data-tab="issues">이슈·특이사항</button>
+      <button data-tab="status">수집 현황</button>
+      <button data-tab="manual">수동 등록</button>
+    </nav>
+  </div>
+</header>
+
+<section class="filters wrap" id="filters">
+  <div class="seg" id="gran">
+    <button data-g="day" class="on">일별</button><button data-g="week">주별</button><button data-g="month">월별</button>
+  </div>
+  <label>기준일 <input type="date" id="refDate"></label>
+  <span class="range" id="rangeLabel"></span>
+  <label>매체 <select id="platformSel"><option value="">전체</option><option>네이버</option><option>메타</option><option>구글</option></select></label>
+  <div class="chips" id="brandChips"></div>
+</section>
+
+<main class="wrap">
+  <section id="tab-overview" class="tab on"></section>
+  <section id="tab-creatives" class="tab"></section>
+  <section id="tab-social" class="tab"></section>
+  <section id="tab-issues" class="tab"></section>
+  <section id="tab-status" class="tab"></section>
+  <section id="tab-manual" class="tab"></section>
+</main>
+
+<div class="lightbox" id="lightbox" hidden><img alt=""><p></p><button aria-label="닫기">×</button></div>
+<footer class="wrap foot">확인된 정보만 표시하며, 확인되지 않은 항목은 ‘미확인’으로 표시합니다. 긍정/부정·이슈 분류는 키워드 기반 추정치입니다. 모든 항목의 출처 링크를 함께 표시합니다.</footer>
+<script src="app.js"></script>
+</body>
+</html>

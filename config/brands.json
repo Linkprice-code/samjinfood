@@ -1,0 +1,27 @@
+{
+  "_설명": "모니터링 대상 경쟁사. query=네이버/유튜브 검색어, mustInclude=결과 제목·본문에 반드시 포함돼야 하는 단어(하나 이상), exclude=제외 단어. youtubeChannelId·instagramUsername·metaPageIds 는 공식 계정을 직접 확인한 뒤에만 채우세요(비워두면 '미설정'으로 표시).",
+  "category": "어묵",
+  "brands": [
+    { "id": "goraesa", "name": "고래사어묵", "query": "고래사어묵", "mustInclude": ["고래사"], "exclude": [], "youtubeChannelId": null, "instagramUsername": null, "metaPageIds": [] },
+    { "id": "mido", "name": "미도어묵", "query": "미도어묵", "mustInclude": ["미도어묵"], "exclude": [], "youtubeChannelId": null, "instagramUsername": null, "metaPageIds": [] },
+    { "id": "hyosung", "name": "효성어묵", "query": "효성어묵", "mustInclude": ["효성어묵"], "exclude": [], "youtubeChannelId": null, "instagramUsername": null, "metaPageIds": [] },
+    { "id": "hwangong", "name": "환공어묵", "query": "환공어묵", "mustInclude": ["환공어묵", "환공"], "exclude": [], "youtubeChannelId": null, "instagramUsername": null, "metaPageIds": [] },
+    { "id": "busan", "name": "부산어묵 관련 브랜드", "query": "부산어묵", "mustInclude": ["부산어묵"], "exclude": ["삼진어묵", "삼진"], "youtubeChannelId": null, "instagramUsername": null, "metaPageIds": ["1356605447547191"] },
+    { "id": "daerimsun", "name": "대림선", "query": "대림선 어묵", "mustInclude": ["대림선"], "exclude": [], "youtubeChannelId": null, "instagramUsername": null, "metaPageIds": [] },
+    { "id": "sajooyang", "name": "사조오양", "query": "사조오양 어묵", "mustInclude": ["사조오양", "사조"], "exclude": [], "youtubeChannelId": null, "instagramUsername": null, "metaPageIds": [] },
+    { "id": "samho", "name": "CJ 삼호어묵", "query": "삼호어묵", "mustInclude": ["삼호어묵", "삼호"], "exclude": [], "youtubeChannelId": null, "instagramUsername": null, "metaPageIds": [] }
+  ],
+  "media": {
+    "naver_brand_pc": { "platform": "네이버", "label": "브랜드검색 PC", "auto": false },
+    "naver_brand_mo": { "platform": "네이버", "label": "브랜드검색 MO", "auto": false },
+    "naver_powerlink": { "platform": "네이버", "label": "파워링크", "auto": false },
+    "naver_shopping": { "platform": "네이버", "label": "쇼핑검색광고", "auto": false },
+    "naver_gfa": { "platform": "네이버", "label": "GFA", "auto": false },
+    "meta_facebook": { "platform": "메타", "label": "페이스북 광고", "auto": false },
+    "meta_instagram": { "platform": "메타", "label": "인스타그램 광고", "auto": false },
+    "meta_library": { "platform": "메타", "label": "메타 광고(지면 미확인)", "auto": false },
+    "google_search": { "platform": "구글", "label": "검색광고", "auto": false },
+    "google_display": { "platform": "구글", "label": "디스플레이 광고", "auto": false },
+    "google_youtube": { "platform": "구글", "label": "유튜브 광고", "auto": false }
+  }
+}
