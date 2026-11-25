@@ -93,7 +93,7 @@ async function renderOverview() {
   </div>`;
 
   const matrix = `<h2>경쟁사별 확인된 광고 매체 <small>${r[1]}까지 누적 · 진한 칸은 선택 기간(${rangeText(r)})에 확인</small></h2>
-  <div class="scroll card" style="padding:0"><table class="matrix"><thead><tr><th>경쟁사</th>${mediaIds.map((m) => `<th>${esc(D.cfg.media[m].platform)}<br>${esc(D.cfg.media[m].label)}</th>`).join('')}</tr></thead><tbody>
+  <div class="scroll card" style="padding:0"><table class="matrix"><thead><tr><th>경쟁사</th>${mediaIds.map((m) => `<th>${pfBadge(D.cfg.media[m].platform)}${esc(D.cfg.media[m].label)}</th>`).join('')}</tr></thead><tbody>
   ${[...S.brands].map((b) => `<tr><td>${esc(D.brandName[b])}</td>${mediaIds.map((m) => {
     const list = D.cr.items.filter((c) => c.brand === b && c.media === m && c.firstSeen <= r[1]);
     if (!list.length) return '<td><span class="no">미확인</span></td>';
@@ -115,7 +115,7 @@ async function renderOverview() {
     const promos = topN(list.flatMap((c) => String(c.promo || '').split(/,\s*/)), 3).map((x) => x[0]);
     const note = D.notes.items.find((n) => n.brand === b);
     const first = list.map((c) => c.firstSeen).sort()[0], last = list.map((c) => c.lastSeen).sort().at(-1);
-    return `<div class="card brandcard"><h3>${esc(D.brandName[b])}<span class="tag">${list.length ? `소재 ${list.length}` : '광고 미확인'}</span></h3><dl>
+    return `<div class="card brandcard" style="--bc:${COLORS[D.brands.indexOf(b) % 8]}"><h3><span><span class="dot"></span>${esc(D.brandName[b])}</span><span class="tag">${list.length ? `소재 ${list.length}` : '광고 미확인'}</span></h3><dl>
       <dt>확인 매체</dt><dd>${medias.length ? medias.map(mediaTag).join('') : '<span class="no">미확인</span>'}</dd>
       <dt>주력 광고 유형</dt><dd>${main ? `${esc(D.cfg.media[main[0]]?.label)} (${main[1]}건) · ${esc({ image: '이미지', video: '동영상', text: '텍스트' }[fmtMain[0]] || fmtMain[0])}` : '<span class="no">미확인</span>'}<div class="note">확인된 소재 기준</div></dd>
       <dt>최초 / 최근</dt><dd>${first ? `${first} / ${last}` : '<span class="no">미확인</span>'}</dd>
@@ -156,7 +156,7 @@ function renderCreatives() {
   const all = $('#crAll')?.checked ?? false;
   const list = crFiltered().filter((c) => all || seenIn(c, r));
   $('#tab-creatives').innerHTML = `<h2>광고 소재 <small>${all ? '전체 누적' : rangeText(r) + ' 확인분'} · ${list.length}건 · 신규 = 선택 기간에 처음 확인</small></h2>
-    <label class="note"><input type="checkbox" id="crAll" ${all ? 'checked' : ''}> 기간과 관계없이 전체 누적 보기</label>
+    <label class="note crAll"><input type="checkbox" id="crAll" ${all ? 'checked' : ''}> 기간과 관계없이 전체 누적 보기</label>
     <div class="grid" style="margin-top:10px">${list.map((c) => crCard(c, r)).join('') || `<div class="empty">선택한 조건에 확인된 광고 소재가 없습니다(미확인). 수동 등록 탭에서 추가하거나 '전체 누적 보기'를 켜 보세요.</div>`}</div>`;
   $('#crAll').onchange = renderCreatives;
 }
@@ -188,8 +188,7 @@ async function renderSocial() {
   const maxTot = Math.max(1, ...rows.map((x) => x.tot));
   const bars = rows.map((x) => `<div class="bar"><span>${esc(D.brandName[x.b])}</span><div class="track" title="긍정 ${x.p} · 부정 ${x.n} · 중립 ${x.u}">
     <span class="s-pos" style="width:${(x.p / maxTot) * 100}%"></span><span class="s-neg" style="width:${(x.n / maxTot) * 100}%"></span><span class="s-neu" style="width:${(x.u / maxTot) * 100}%"></span></div><span class="num">${x.tot}</span></div>`).join('');
-  const thN = (t) => `<th style="text-align:right">${t}</th>`; // 숫자 칸 제목은 숫자와 같은 오른쪽 정렬
-  const table = `<div class="scroll"><table><thead><tr><th>경쟁사</th>${MKEYS.map((k) => thN(SRC[k])).join('')}${thN('합계')}${thN(`${GLabel[S.gran]} 합계`)}${thN('변화')}${thN('긍정')}${thN('부정')}</tr></thead><tbody>
+  const table = `<div class="scroll"><table><thead><tr><th>경쟁사</th>${MKEYS.map((k) => `<th>${SRC[k]}</th>`).join('')}<th>합계</th><th>${GLabel[S.gran]} 합계</th><th>변화</th><th>긍정</th><th>부정</th></tr></thead><tbody>
     ${rows.map((x) => `<tr><td>${esc(D.brandName[x.b])}</td>${x.by.map((v) => `<td class="num">${v}</td>`).join('')}<td class="num"><b>${x.tot}</b></td><td class="num">${x.prev}</td><td class="num">${delta(x.tot, x.prev)}</td><td class="num up">${x.p}</td><td class="num down">${x.n}</td></tr>`).join('')}</tbody></table></div>`;
 
   const off = Object.values(D.off.items).filter((o) => S.brands.has(o.brand) && (!S.platform || (S.platform === '구글' ? o.platform === 'youtube' : S.platform === '메타' ? o.platform === 'instagram' : false)))
@@ -238,9 +237,9 @@ function renderStatus() {
   $('#tab-status').innerHTML = `<h2>매체별 자동 수집 가능 범위 <small>검증일 ${esc(D.cov.verifiedAt)}</small></h2>
     <p class="note">${esc(D.cov.summary)}</p>
     <div class="scroll"><table><thead><tr><th>매체</th><th>대상</th><th>방식</th><th>필요 설정</th><th>근거</th></tr></thead><tbody>
-    ${D.cov.items.map((c) => `<tr><td>${esc(c.platform)}</td><td>${esc(c.target)}</td><td>${c.mode === 'auto' ? '<span class="tag pos">자동</span>' : c.mode === 'auto-optional' ? '<span class="tag warn">자동(설정 시)</span>' : '<span class="tag">수동 등록</span>'}<div class="note">${esc(c.method)}</div></td><td class="note">${esc(c.needs)}</td><td class="note">${esc(c.evidence)}</td></tr>`).join('')}</tbody></table></div>
+    ${D.cov.items.map((c) => `<tr><td>${pfBadge(c.platform)}</td><td>${esc(c.target)}</td><td>${c.mode === 'auto' ? '<span class="tag pos">자동</span>' : c.mode === 'auto-optional' ? '<span class="tag warn">자동(설정 시)</span>' : '<span class="tag">수동 등록</span>'}<div class="note">${esc(c.method)}</div></td><td class="note">${esc(c.needs)}</td><td class="note">${esc(c.evidence)}</td></tr>`).join('')}</tbody></table></div>
     <h2>최근 실행 결과 <small>${last ? `${esc(last.runAt.slice(0, 16).replace('T', ' '))} · ${esc(last.trigger)} · 정상 ${last.summary.ok} / 미설정 ${last.summary.skipped} / 오류 ${last.summary.error}` : '실행 기록 없음'}</small></h2>
-    ${last ? `<div class="scroll"><table><thead><tr><th>경쟁사</th>${cols.map((c) => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${D.brands.map((b) => `<tr><td>${esc(D.brandName[b])}</td>${cols.map((c) => `<td>${cell(last.results.find((x) => x.brand === b && x.collector === c))}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="note">칸에 마우스를 올리면 상세 메시지가 보입니다.</p>` : '<div class="empty">아직 자동 수집이 실행되지 않았습니다.</div>'}
+    ${last ? `<div class="scroll"><table><thead><tr><th>경쟁사</th>${cols.map((c) => `<th>${esc(c)}</th>`).join('')}</tr></thead><tbody>${D.brands.map((b) => `<tr><td>${esc(D.brandName[b])}</td>${cols.map((c) => `<td class="c">${cell(last.results.find((x) => x.brand === b && x.collector === c))}</td>`).join('')}</tr>`).join('')}</tbody></table></div><p class="note">칸에 마우스를 올리면 상세 메시지가 보입니다.</p>` : '<div class="empty">아직 자동 수집이 실행되지 않았습니다.</div>'}
     <h2>오류 기록 <small>최근 ${errs.length}건</small></h2>
     ${errs.length ? `<div class="scroll"><table><thead><tr><th>실행 시각</th><th>수집기</th><th>경쟁사</th><th>메시지</th></tr></thead><tbody>${errs.map((e) => `<tr><td>${esc(e.runAt.slice(0, 16).replace('T', ' '))}</td><td>${esc(e.collector)}</td><td>${esc(D.brandName[e.brand] || e.brand)}</td><td class="note">${esc(e.message)}</td></tr>`).join('')}</tbody></table></div>` : '<div class="empty">기록된 오류가 없습니다.</div>'}
     <h2>수동 등록 파일 검사</h2>
@@ -319,7 +318,21 @@ async function render() {
   $('#rangeLabel').textContent = rangeText(range(S.gran, S.ref));
   $('#filters').style.display = ['status', 'manual'].includes(current) ? 'none' : '';
   await renderers[current]();
+  alignHeads($(`#tab-${current}`));
 }
+// 모든 표: 칸 제목 정렬을 그 칸 내용 정렬(숫자=오른쪽, 배지=가운데, 글자=왼쪽)과 똑같이 맞춤
+function alignHeads(root) {
+  root.querySelectorAll('table').forEach((t) => {
+    const row = t.tBodies[0]?.rows[0];
+    if (!row || !t.tHead) return;
+    [...t.tHead.rows[0].cells].forEach((th, i) => {
+      const td = row.cells[i];
+      if (td?.classList.contains('num')) th.classList.add('num');
+      else if (td?.classList.contains('c')) th.classList.add('c');
+    });
+  });
+}
+const pfBadge = (p) => `<span class="pf pf-${esc(p)}">${esc(p)}</span>`;
 function initUI() {
   $('#refDate').value = S.ref;
   document.querySelectorAll('#gran button').forEach((b) => b.classList.toggle('on', b.dataset.g === S.gran));

@@ -4,14 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>어묵 경쟁사 모니터</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top">
   <div class="wrap top-row">
-    <div>
-      <h1>어묵 경쟁사 광고·반응 모니터</h1>
-      <p class="sub">국내 어묵 카테고리 · 네이버 / 메타 / 구글 · <span id="lastUpdated">불러오는 중…</span></p>
+    <div class="brandline">
+      <div class="logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></div>
+      <div>
+        <h1>어묵 경쟁사 광고·반응 모니터</h1>
+        <p class="sub">국내 어묵 카테고리 · 네이버 / 메타 / 구글 · <span id="lastUpdated">불러오는 중…</span></p>
+      </div>
     </div>
     <nav class="tabs" id="tabs">
       <button data-tab="overview" class="on">개요</button>
@@ -44,7 +48,7 @@
 </main>
 
 <div class="lightbox" id="lightbox" hidden><img alt=""><p></p><button aria-label="닫기">×</button></div>
-<footer class="wrap foot">확인된 정보만 표시하며, 확인되지 않은 항목은 ‘미확인’으로 표시합니다. 긍정/부정·이슈 분류는 키워드 기반 추정치입니다. 모든 항목의 출처 링크를 함께 표시합니다.</footer>
+<footer class="foot"><div class="wrap" style="padding:0">확인된 정보만 표시하며, 확인되지 않은 항목은 ‘미확인’으로 표시합니다. 긍정/부정·이슈 분류는 키워드 기반 추정치입니다. 모든 항목의 출처 링크를 함께 표시합니다.</div></footer>
 <script src="app.js"></script>
 </body>
 </html>
