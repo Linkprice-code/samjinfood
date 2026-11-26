@@ -583,6 +583,98 @@
     "channel": "친구tv",
     "thumb": "https://i.ytimg.com/vi/ebCkkxJwL-o/mqdefault.jpg"
    }
+  },
+  {
+   "id": "b77f838b46c1294af4b28658f7c3bb599d10e311",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "이민정이 겨울만 되면 쟁여두는 물떡 꼬치 어묵 소주 생각나는 어묵탕 #이민정 #물떡꼬치 #물떡어묵탕 #고래사어묵 #이민정어묵 #이민정오뎅탕 #꼬치어묵 #어묵탕 #간편안주추천",
+   "desc": "겨울만되면 자꾸 생각나눈 물떡 포함 꼬치어묵! 감칠맛 나는 소스까지 겨울간식이나 간편안주로 딱이에요, #간편안주 #물떡 #술안주 ...",
+   "url": "https://www.youtube.com/watch?v=hp04S8zYYFc",
+   "published": "2026-11-26",
+   "firstSeen": "2026-11-26",
+   "date": "2026-11-26",
+   "baseline": false,
+   "sentiment": "positive",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵탕",
+    "오뎅"
+   ],
+   "extra": {
+    "channel": "잇뷰티쇼",
+    "thumb": "https://i.ytimg.com/vi/hp04S8zYYFc/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "721850c99ee8d68d5ff84e977959a6ee8d018912",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "#이재용 회장님 자리 #기 받으러 가요# 부산 어묵",
+   "desc": "",
+   "url": "https://www.youtube.com/watch?v=H3u_eRT5vEw",
+   "published": "2026-11-26",
+   "firstSeen": "2026-11-26",
+   "date": "2026-11-26",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "아즈메 하루",
+    "thumb": "https://i.ytimg.com/vi/H3u_eRT5vEw/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "1689eb2c3d56c1bb6c14dd3e11fa10d145da13f5",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "조선시대 부산어묵",
+   "desc": "창업문의: 010-5384-7177 (꼭 문자 남겨주세요.24시간가능) ✉️상담문의/신청 : kjgchangsin@gmail.com #shorts 김종구 부산 ...",
+   "url": "https://www.youtube.com/watch?v=uQevVgpyKv0",
+   "published": "2026-11-26",
+   "firstSeen": "2026-11-26",
+   "date": "2026-11-26",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "창업의 형 김종구 대표",
+    "thumb": "https://i.ytimg.com/vi/uQevVgpyKv0/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "356639b703bfd6e7ae5b0fe77da1d65f38a4cd87",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "추울땐 어묵탕이 대세~국물이 끝내줘요~부산하면 부산어묵이라예~쫀득하고 탄력있는어묵과 시원칼칼 깔끔한 육수의 환상적인 케미~어묵육수내는법",
+   "desc": "구독.좋아요.알람은 영상만드는데 큰 힘이 됩니다~ 구독자 여러분 감사합니다~^^ 부산어묵탕의 진미 어묵의 쫀득하고 탄력있는식감 ...",
+   "url": "https://www.youtube.com/watch?v=ENxjm3moD9g",
+   "published": "2026-11-26",
+   "firstSeen": "2026-11-26",
+   "date": "2026-11-26",
+   "baseline": false,
+   "sentiment": "positive",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵탕",
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "부산아지매레시피",
+    "thumb": "https://i.ytimg.com/vi/ENxjm3moD9g/mqdefault.jpg"
+   }
   }
  ]
 }

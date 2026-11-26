@@ -1,5 +1,354 @@
 [
  {
+  "runAt": "2026-11-26T16:32:26.271+09:00",
+  "date": "2026-11-26",
+  "trigger": "schedule",
+  "durationMs": 1747,
+  "summary": {
+   "ok": 8,
+   "skipped": 40,
+   "error": 0
+  },
+  "results": [
+   {
+    "collector": "naver_news",
+    "brand": "goraesa",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_blog",
+    "brand": "goraesa",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_cafe",
+    "brand": "goraesa",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_news",
+    "brand": "mido",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_blog",
+    "brand": "mido",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_cafe",
+    "brand": "mido",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_news",
+    "brand": "hyosung",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_blog",
+    "brand": "hyosung",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_cafe",
+    "brand": "hyosung",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_news",
+    "brand": "hwangong",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_blog",
+    "brand": "hwangong",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_cafe",
+    "brand": "hwangong",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_news",
+    "brand": "busan",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_blog",
+    "brand": "busan",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_cafe",
+    "brand": "busan",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_news",
+    "brand": "daerimsun",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_blog",
+    "brand": "daerimsun",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_cafe",
+    "brand": "daerimsun",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_news",
+    "brand": "sajooyang",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_blog",
+    "brand": "sajooyang",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_cafe",
+    "brand": "sajooyang",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_news",
+    "brand": "samho",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_blog",
+    "brand": "samho",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "naver_cafe",
+    "brand": "samho",
+    "status": "skipped",
+    "count": 0,
+    "message": "NAVER_CLIENT_ID/SECRET 미설정"
+   },
+   {
+    "collector": "youtube",
+    "brand": "goraesa",
+    "status": "ok",
+    "count": 1,
+    "message": "검색 10건"
+   },
+   {
+    "collector": "youtube_official",
+    "brand": "goraesa",
+    "status": "skipped",
+    "count": 0,
+    "message": "공식 채널 ID 미설정"
+   },
+   {
+    "collector": "youtube",
+    "brand": "mido",
+    "status": "ok",
+    "count": 0,
+    "message": "검색 0건"
+   },
+   {
+    "collector": "youtube_official",
+    "brand": "mido",
+    "status": "skipped",
+    "count": 0,
+    "message": "공식 채널 ID 미설정"
+   },
+   {
+    "collector": "youtube",
+    "brand": "hyosung",
+    "status": "ok",
+    "count": 0,
+    "message": "검색 0건"
+   },
+   {
+    "collector": "youtube_official",
+    "brand": "hyosung",
+    "status": "skipped",
+    "count": 0,
+    "message": "공식 채널 ID 미설정"
+   },
+   {
+    "collector": "youtube",
+    "brand": "hwangong",
+    "status": "ok",
+    "count": 0,
+    "message": "검색 0건"
+   },
+   {
+    "collector": "youtube_official",
+    "brand": "hwangong",
+    "status": "skipped",
+    "count": 0,
+    "message": "공식 채널 ID 미설정"
+   },
+   {
+    "collector": "youtube",
+    "brand": "busan",
+    "status": "ok",
+    "count": 3,
+    "message": "검색 19건"
+   },
+   {
+    "collector": "youtube_official",
+    "brand": "busan",
+    "status": "skipped",
+    "count": 0,
+    "message": "공식 채널 ID 미설정"
+   },
+   {
+    "collector": "youtube",
+    "brand": "daerimsun",
+    "status": "ok",
+    "count": 0,
+    "message": "검색 0건"
+   },
+   {
+    "collector": "youtube_official",
+    "brand": "daerimsun",
+    "status": "skipped",
+    "count": 0,
+    "message": "공식 채널 ID 미설정"
+   },
+   {
+    "collector": "youtube",
+    "brand": "sajooyang",
+    "status": "ok",
+    "count": 0,
+    "message": "검색 0건"
+   },
+   {
+    "collector": "youtube_official",
+    "brand": "sajooyang",
+    "status": "skipped",
+    "count": 0,
+    "message": "공식 채널 ID 미설정"
+   },
+   {
+    "collector": "youtube",
+    "brand": "samho",
+    "status": "ok",
+    "count": 0,
+    "message": "검색 1건"
+   },
+   {
+    "collector": "youtube_official",
+    "brand": "samho",
+    "status": "skipped",
+    "count": 0,
+    "message": "공식 채널 ID 미설정"
+   },
+   {
+    "collector": "instagram_official",
+    "brand": "goraesa",
+    "status": "skipped",
+    "count": 0,
+    "message": "META_ACCESS_TOKEN/IG_USER_ID 미설정"
+   },
+   {
+    "collector": "instagram_official",
+    "brand": "mido",
+    "status": "skipped",
+    "count": 0,
+    "message": "META_ACCESS_TOKEN/IG_USER_ID 미설정"
+   },
+   {
+    "collector": "instagram_official",
+    "brand": "hyosung",
+    "status": "skipped",
+    "count": 0,
+    "message": "META_ACCESS_TOKEN/IG_USER_ID 미설정"
+   },
+   {
+    "collector": "instagram_official",
+    "brand": "hwangong",
+    "status": "skipped",
+    "count": 0,
+    "message": "META_ACCESS_TOKEN/IG_USER_ID 미설정"
+   },
+   {
+    "collector": "instagram_official",
+    "brand": "busan",
+    "status": "skipped",
+    "count": 0,
+    "message": "META_ACCESS_TOKEN/IG_USER_ID 미설정"
+   },
+   {
+    "collector": "instagram_official",
+    "brand": "daerimsun",
+    "status": "skipped",
+    "count": 0,
+    "message": "META_ACCESS_TOKEN/IG_USER_ID 미설정"
+   },
+   {
+    "collector": "instagram_official",
+    "brand": "sajooyang",
+    "status": "skipped",
+    "count": 0,
+    "message": "META_ACCESS_TOKEN/IG_USER_ID 미설정"
+   },
+   {
+    "collector": "instagram_official",
+    "brand": "samho",
+    "status": "skipped",
+    "count": 0,
+    "message": "META_ACCESS_TOKEN/IG_USER_ID 미설정"
+   }
+  ]
+ },
+ {
   "runAt": "2026-11-25T14:24:15.449+09:00",
   "date": "2026-11-25",
   "trigger": "workflow_dispatch",

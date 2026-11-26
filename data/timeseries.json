@@ -47,6 +47,17 @@
     "youtube": 2,
     "sent_neutral": 2
    }
+  },
+  "2026-11-26": {
+   "goraesa": {
+    "youtube": 1,
+    "sent_positive": 1
+   },
+   "busan": {
+    "youtube": 3,
+    "sent_neutral": 2,
+    "sent_positive": 1
+   }
   }
  }
 }
