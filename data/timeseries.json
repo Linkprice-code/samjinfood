@@ -50,13 +50,28 @@
   },
   "2026-11-26": {
    "goraesa": {
-    "youtube": 1,
-    "sent_positive": 1
+    "youtube": 2,
+    "sent_positive": 1,
+    "sent_neutral": 1
    },
    "busan": {
-    "youtube": 3,
-    "sent_neutral": 2,
+    "youtube": 6,
+    "sent_neutral": 5,
     "sent_positive": 1
+   }
+  },
+  "2026-11-27": {
+   "goraesa": {
+    "youtube": 1,
+    "sent_neutral": 1
+   },
+   "mido": {
+    "youtube": 1,
+    "sent_neutral": 1
+   },
+   "busan": {
+    "youtube": 2,
+    "sent_neutral": 2
    }
   }
  }

@@ -675,6 +675,192 @@
     "channel": "부산아지매레시피",
     "thumb": "https://i.ytimg.com/vi/ENxjm3moD9g/mqdefault.jpg"
    }
+  },
+  {
+   "id": "01a61823d942da865354c1d63c4c0ee5878e6605",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "겨울밤 야식 2가지 해남 꿀고구마 고래사 어묵전골 #Shorts",
+   "desc": "이 영상은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. 귀찮은 겨울밤 야식 2가지! 해남 다모 꿀고구마 ...",
+   "url": "https://www.youtube.com/watch?v=ZTj2YpOAcYY",
+   "published": "2026-11-27",
+   "firstSeen": "2026-11-27",
+   "date": "2026-11-27",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "싸고 맛있게",
+    "thumb": "https://i.ytimg.com/vi/ZTj2YpOAcYY/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "5285efdf4bea6fa5f115515184ac5fd73c9a4880",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "서인영 다이어트 떡볶이 최애 어묵, 고래사 순살가득 하얀사각",
+   "desc": "이 게시물은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. 출처: 유튜브 「개과천선 서인영」, ...",
+   "url": "https://www.youtube.com/watch?v=1SJ3LIVt8Sw",
+   "published": "2026-11-26",
+   "firstSeen": "2026-11-27",
+   "date": "2026-11-26",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "떡볶이"
+   ],
+   "extra": {
+    "channel": "그 셀럽 그 물건",
+    "thumb": "https://i.ytimg.com/vi/1SJ3LIVt8Sw/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "5227fe05309c18e99053faa46e4c36b1e3671465",
+   "brand": "mido",
+   "source": "youtube",
+   "title": "어묵 1황의 정체 #오뎅",
+   "desc": "미도어묵 #어묵 #오뎅 #오뎅바 #오뎅탕 #어묵탕.",
+   "url": "https://www.youtube.com/watch?v=L93TiNyysuk",
+   "published": "2026-11-27",
+   "firstSeen": "2026-11-27",
+   "date": "2026-11-27",
+   "baseline": true,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵탕",
+    "오뎅"
+   ],
+   "extra": {
+    "channel": "푸드TV",
+    "thumb": "https://i.ytimg.com/vi/L93TiNyysuk/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "37106496d2e8a05fdb5ac86987b7fa51867bdf4d",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "부산 어묵볶음 Busan style Stir - Fried Fish Kakes",
+   "desc": "",
+   "url": "https://www.youtube.com/watch?v=sm2MOs113ws",
+   "published": "2026-11-27",
+   "firstSeen": "2026-11-27",
+   "date": "2026-11-27",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵볶음"
+   ],
+   "extra": {
+    "channel": "강아지",
+    "thumb": "https://i.ytimg.com/vi/sm2MOs113ws/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "4529ad151ac4baab69cad1492d15237e6b2db8ac",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "부산 이름 뺏겼던 어묵집들의 반격",
+   "desc": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다 마트 부산어묵, 진짜 부산 거였을까?",
+   "url": "https://www.youtube.com/watch?v=e0yWIs-20zQ",
+   "published": "2026-11-27",
+   "firstSeen": "2026-11-27",
+   "date": "2026-11-27",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "dapalja",
+    "thumb": "https://i.ytimg.com/vi/e0yWIs-20zQ/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "0a09abda4f7dcf447656428c30e8004cf69974aa",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "어묵 vs 오뎅 뭐가 정답일까?",
+   "desc": "장호준 #초간단요리 #어묵탕 #오뎅탕 #어묵나베 #오뎅나베 #어설랑 #미니멀부산어묵꼬치&물떡.",
+   "url": "https://www.youtube.com/watch?v=yFbhJC0N3xs",
+   "published": "2026-11-26",
+   "firstSeen": "2026-11-27",
+   "date": "2026-11-26",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵탕",
+    "어묵꼬치",
+    "오뎅",
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "셰프 장호준 (호주이햄)",
+    "thumb": "https://i.ytimg.com/vi/yFbhJC0N3xs/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "107318dd25ff34f568a44fbf3413a31d1f5819ab",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "추운 날씨에 손님 몰리는 남대문시장 부산어묵! 🍢 겨울철 별미",
+   "desc": "",
+   "url": "https://www.youtube.com/watch?v=d_4-huZbJj8",
+   "published": "2026-11-26",
+   "firstSeen": "2026-11-27",
+   "date": "2026-11-26",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "리얼코리아",
+    "thumb": "https://i.ytimg.com/vi/d_4-huZbJj8/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "667a4a10c2af0bd1d77004d0e221c814588ad6df",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "제주에서 보내주신 부산어묵 선물, 골드 왕자 침샘 폭발! 😂👑 | Fish Cake Gift from Jeju!",
+   "desc": "제주에서 보내주신 정성 가득한 부산어묵 선물! 먹깨비 골드 왕자는 어묵 향에 벌써 입맛을 다시네요. ㅎㅎㅎ 강아지는 뛰어난 후각 ...",
+   "url": "https://www.youtube.com/watch?v=vxuf1ZIIvyc",
+   "published": "2026-11-26",
+   "firstSeen": "2026-11-27",
+   "date": "2026-11-26",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "부산어묵"
+   ],
+   "extra": {
+    "channel": "여수최강팀 경주마 마주의 동물가족",
+    "thumb": "https://i.ytimg.com/vi/vxuf1ZIIvyc/mqdefault.jpg"
+   }
   }
  ]
 }
