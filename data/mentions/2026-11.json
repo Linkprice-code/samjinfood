@@ -861,6 +861,117 @@
     "channel": "여수최강팀 경주마 마주의 동물가족",
     "thumb": "https://i.ytimg.com/vi/vxuf1ZIIvyc/mqdefault.jpg"
    }
+  },
+  {
+   "id": "17c19389f3ad6cc3c859785a1315edf8a194aa5c",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "고래사어묵탕 먹방 #조카사랑 #주호 #조카랑",
+   "desc": "",
+   "url": "https://www.youtube.com/watch?v=NLG43oKDsFc",
+   "published": "2026-11-28",
+   "firstSeen": "2026-11-28",
+   "date": "2026-11-28",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵탕"
+   ],
+   "extra": {
+    "channel": "Sun과 조카 TV",
+    "thumb": "https://i.ytimg.com/vi/NLG43oKDsFc/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "a296bf5608eb808b3920e599294e9b4419e1a4a2",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "A Hearty Korean Dinner 🍲 고래사 어묵탕과 조기매운탕, 따뜻한 저녁 밥상",
+   "desc": "오늘 저녁은 정성 가득 따뜻한 집밥 한 상 ❤️ 콩나물을 끓인 시원한 육수에 꽃게 한 마리, 새우, 유부주머니와 고래사 어묵을 듬뿍 ...",
+   "url": "https://www.youtube.com/watch?v=qcCB23mC2yQ",
+   "published": "2026-11-27",
+   "firstSeen": "2026-11-28",
+   "date": "2026-11-27",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵탕"
+   ],
+   "extra": {
+    "channel": "밥상 술상 일상",
+    "thumb": "https://i.ytimg.com/vi/qcCB23mC2yQ/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "556505c758a0ea522c73c652a1d1f822ffe25fec",
+   "brand": "goraesa",
+   "source": "youtube",
+   "title": "#어묵꼬지#고래사어묵#어묵탕",
+   "desc": "감자만두랑 같이 먹을 어묵꼬지~ 고래사어묵이에요~사악한 가격이지만 맛보장이지요~뜨끈한 어묵탕 맛나겠쥬~^^",
+   "url": "https://www.youtube.com/watch?v=E-K3xqWdJh0",
+   "published": "2026-11-27",
+   "firstSeen": "2026-11-28",
+   "date": "2026-11-27",
+   "baseline": false,
+   "sentiment": "positive",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [
+    "어묵탕"
+   ],
+   "extra": {
+    "channel": "보잘것 없는 나의 소확행♡",
+    "thumb": "https://i.ytimg.com/vi/E-K3xqWdJh0/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "2b6b92824c0d0504f794e620e9980cf9b08701c4",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "겨울 간식 '부산 어묵', 6.25 전쟁 피난민들의 눈물에서 시작됐다고? #어묵, #한국전쟁, #피난수도부산",
+   "desc": "겨울철 우리가 즐겨 먹는 따뜻한 어묵 꼬치, 사실 6.25 전쟁 피난민들의 생존 지혜에서 탄생했다는 사실 알고 계셨나요? 1950년대 ...",
+   "url": "https://www.youtube.com/watch?v=OpR3lahzvKE",
+   "published": "2026-11-28",
+   "firstSeen": "2026-11-28",
+   "date": "2026-11-28",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "복지대세",
+    "thumb": "https://i.ytimg.com/vi/OpR3lahzvKE/mqdefault.jpg"
+   }
+  },
+  {
+   "id": "fd6edad6153b06bdcff78458443ee355ec0ca1f2",
+   "brand": "busan",
+   "source": "youtube",
+   "title": "꼭 가봐야 할 맛집.",
+   "desc": "남대문 부산 어묵 맛집으로 유명하다 한번은 꼭 가바야 하는 장소.",
+   "url": "https://www.youtube.com/watch?v=rtkFPSJBtXc",
+   "published": "2026-11-27",
+   "firstSeen": "2026-11-28",
+   "date": "2026-11-27",
+   "baseline": false,
+   "sentiment": "neutral",
+   "issue": [],
+   "marketing": [],
+   "promo": [],
+   "products": [],
+   "extra": {
+    "channel": "SunmuTrip",
+    "thumb": "https://i.ytimg.com/vi/rtkFPSJBtXc/mqdefault.jpg"
+   }
   }
  ]
 }
